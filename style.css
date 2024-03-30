@@ -1,0 +1,60 @@
+body{
+    
+    background: url('https://wallpapercave.com/wp/wp6405474.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form{
+    width:500px;
+    margin:5vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    padding:50px;
+}
+h1{
+    text-align: center;
+    color:rgb(36, 84, 227);
+}
+
+#form button{
+    background-color: rgb(36, 84, 227);
+    color: white;
+    border: 1px solid rgb(90, 154, 231);
+    padding: 10px;
+    margin: 20px 0px;
+    cursor:pointer;
+    border-radius: 70px;
+    font-size:20px;
+    width:100%;
+}
+.form-control input{
+    border:2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    padding: 10px;
+    width: 100%;
+}
+.form-control input:focus{
+    outline: none;
+    border-color: rgb(90, 154, 231);
+}
+.form-control .success input{
+    border-color: green;
+}
+.form-control.error input{
+    border-color: red;
+}
+.form-control small{
+    color: red;
+    visibility: hidden;
+}
+.form-control.error small{
+
+    visibility: visible;
+}
+
